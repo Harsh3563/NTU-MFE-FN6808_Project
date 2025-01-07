@@ -2,7 +2,9 @@
 
 
 **Project Tasks:**
+
 _Question 1: Modeling Volatility_
+
 Find data for historical prices for any publicly traded equity. To ensure the length of data, use daily data
 for at least 3 years. Fit the historical data to
 1. Geometric Brownian motion
@@ -13,6 +15,7 @@ Find market data for option prices for this stock. Use option prices to
 5. Plot the volatility surface, as a function of time to maturity and moneyness.
    
 _Question 2: Vanilla European option pricing_
+
 Use the non-constant volatility model obtained in Question 1(2). Calculate the price of a European call
 option (whose today’s price can be observed in market) using
 1. Monte Carlo
@@ -27,6 +30,7 @@ methods based on their efficiency and accuracy. Explain any source of error and 
 suggestions on possible ways to reduce the error.
 
 _Question 3: Variance reduction in Monte Carlo_
+
 Use the Geometric Brownian motion obtained in Question 1(1). Calculate the price of any pathdependent option using
 1. Crude Monte Carlo
 2. Monte Carlo with two different (one for each time) variance reduction techniques, and show
