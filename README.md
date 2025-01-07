@@ -9,23 +9,26 @@ Find data for historical prices for any publicly traded equity. To ensure the le
 for at least 3 years. Fit the historical data to
 1. Geometric Brownian motion
 2. Any non-constant volatility model
+   
 Find market data for option prices for this stock. Use option prices to
-3. Show volatility smile
-4. Construct term structure of volatility
-5. Plot the volatility surface, as a function of time to maturity and moneyness.
+4. Show volatility smile
+5. Construct term structure of volatility
+6. Plot the volatility surface, as a function of time to maturity and moneyness.
    
 _Question 2: Vanilla European option pricing_
 
 Use the non-constant volatility model obtained in Question 1(2). Calculate the price of a European call
 option (whose today’s price can be observed in market) using
 1. Monte Carlo
+   
 Use the Geometric Brownian motion obtained in Question 1(1). Calculate the price of the same
 European call option using
-2. Numerical PDE
-3. Binomial Model
-4. Black-Scholes formula
+3. Numerical PDE
+4. Binomial Model
+5. Black-Scholes formula
+
 For each part of 1 to 3, show how accuracy can be improved by increasing computational time. Lastly,
-5. Compare the four calculated prices with the “true price” observed in market. Comment on these
+6. Compare the four calculated prices with the “true price” observed in market. Comment on these
 methods based on their efficiency and accuracy. Explain any source of error and make
 suggestions on possible ways to reduce the error.
 
