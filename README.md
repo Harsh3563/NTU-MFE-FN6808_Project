@@ -47,6 +47,7 @@ how much efficiency is gained. _(Note: We used Antithetic Variates and Control V
 
 
 **Final Stock Dataset:** MSFT_stock_data.csv
+
 _- Publicly Traded Equity:_ Microsoft Corp. (MSFT)
 _- Data Source:_ Yahoo Finance
 _- Timeline:_ 3 Year + (till Present Day) Historical Prices (01/04/2021 - 09/27/2024)
@@ -57,6 +58,7 @@ _- Display Order:_ By date (Ascending / Oldest-First)
 
 
 **Final (Call) Option Chain Dataset:** call_option.csv
+
 _- Publicly Traded Underlying Equity:_ Microsoft Corp. (MSFT)
 _- Data Source:_ Yahoo Finance
 _- Expiration Dates:_ 18 October 2024 onwards
